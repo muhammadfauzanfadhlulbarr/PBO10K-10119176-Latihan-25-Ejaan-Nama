@@ -13,7 +13,7 @@ public class Latihan25 {
         System.out.print("Masukkan nama depan anda untuk di eja : ");
         String nama = scanner.next();
         System.out.println();
-        System.out.printf("Ejaan untuk %s adalah : %n", nama);
+        System.out.println("Ejaan untuk nama \"" + nama + "\" adalah :");
         for (int i = 0; i < nama.length(); i++) {
             System.out.printf("Huruf ke-%d : %c%n", i+1, nama.charAt(i));
         }
